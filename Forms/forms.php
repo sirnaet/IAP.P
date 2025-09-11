@@ -29,7 +29,7 @@ class Forms {
             } else {
                 echo "<p style='color:red;'>Error: could not sign up.</p>";
             }
-            // your wrapper
+            
 
 
         }
