@@ -1,0 +1,259 @@
+PS C:\Apache24\htdocs\IAP.P> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ClassAutoLoad.php
+        modified:   Forms/forms.php
+        modified:   Global/SendMail.php
+        modified:   Layouts/layouts.php
+        modified:   conf.php
+        modified:   try_mail.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Plugins/
+        info.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+PS C:\Apache24\htdocs\IAP.P> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ClassAutoLoad.php
+        modified:   Forms/forms.php
+        modified:   Global/SendMail.php
+        modified:   Layouts/layouts.php
+        new file:   Plugins/PHPMailer/PHPMailer
+        new file:   Plugins/PHPMailer/composer.json
+        new file:   Plugins/PHPMailer/composer.lock
+        new file:   Plugins/PHPMailer/mail.php
+        new file:   Plugins/PHPMailer/vendor/autoload.php
+        new file:   Plugins/PHPMailer/vendor/composer/ClassLoader.php
+        new file:   Plugins/PHPMailer/vendor/composer/InstalledVersions.php
+        new file:   Plugins/PHPMailer/vendor/composer/LICENSE
+        new file:   Plugins/PHPMailer/vendor/composer/autoload_classmap.php
+        new file:   Plugins/PHPMailer/vendor/composer/autoload_namespaces.php
+        new file:   Plugins/PHPMailer/vendor/composer/autoload_psr4.php
+        new file:   Plugins/PHPMailer/vendor/composer/autoload_real.php
+        new file:   Plugins/PHPMailer/vendor/composer/autoload_static.php
+        new file:   Plugins/PHPMailer/vendor/composer/installed.json
+        new file:   Plugins/PHPMailer/vendor/composer/installed.php
+        new file:   Plugins/PHPMailer/vendor/composer/platform_check.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/COMMITMENT
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/LICENSE
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/README.md
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/SECURITY.md
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/SMTPUTF8.md
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/VERSION
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/composer.json
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/get_oauth_token.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-as.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-bn.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ku.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php    
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-si.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr_latn.php  
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ur.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php       
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php    
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/DSNConfigurator.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/Exception.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/OAuth.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/PHPMailer.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/POP3.php
+        new file:   Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/SMTP.php
+        modified:   conf.php
+        new file:   info.php
+        modified:   try_mail.php
+
+PS C:\Apache24\htdocs\IAP.P> git commit -m "email sent to user after signing up"
+[main 1c36f20] email sent to user after signing up
+ 95 files changed, 12301 insertions(+), 157 deletions(-)
+ create mode 160000 Plugins/PHPMailer/PHPMailer
+ create mode 100644 Plugins/PHPMailer/composer.json
+ create mode 100644 Plugins/PHPMailer/composer.lock
+ create mode 100644 Plugins/PHPMailer/mail.php
+ create mode 100644 Plugins/PHPMailer/vendor/autoload.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/ClassLoader.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/InstalledVersions.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/LICENSE
+ create mode 100644 Plugins/PHPMailer/vendor/composer/autoload_classmap.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/autoload_namespaces.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/autoload_psr4.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/autoload_real.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/autoload_static.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/installed.json
+ create mode 100644 Plugins/PHPMailer/vendor/composer/installed.php
+ create mode 100644 Plugins/PHPMailer/vendor/composer/platform_check.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/COMMITMENT
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/LICENSE
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/README.md
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/SECURITY.md
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/SMTPUTF8.md
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/VERSION
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/composer.json
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/get_oauth_token.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-as.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-bn.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ku.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php    
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-si.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr_latn.php  
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ur.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php       
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php    
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/DSNConfigurator.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/Exception.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/OAuth.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/PHPMailer.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/POP3.php
+ create mode 100644 Plugins/PHPMailer/vendor/phpmailer/phpmailer/src/SMTP.php
+ create mode 100644 info.php
+PS C:\Apache24\htdocs\IAP.P> git push 
+Enumerating objects: 117, done.
+Counting objects: 100% (117/117), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (100/100), done.
+Writing objects: 100% (107/107), 152.11 KiB | 2.49 MiB/s, done.
+Total 107 (delta 14), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (14/14), completed with 2 local objects.
+To https://github.com/azharhacks/IAP.P.git
+   63f9792..1c36f20  main -> main
+PS C:\Apache24\htdocs\IAP.P> git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Forms/forms.php
+        deleted:    Plugins/PHPMailer/mail.php
+        deleted:    try_mail.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DisplayUsers.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Apache24\htdocs\IAP.P> git add .
+PS C:\Apache24\htdocs\IAP.P> git commit -m "Added DisplayUsers file to display users from the database in an ordered list"
+[main 71d6c57] Added DisplayUsers file to display users from the database in an ordered list
+ 4 files changed, 25 insertions(+), 62 deletions(-)
+ create mode 100644 DisplayUsers.php
+ delete mode 100644 Plugins/PHPMailer/mail.php
+ delete mode 100644 try_mail.php
+PS C:\Apache24\htdocs\IAP.P> git push 
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 888 bytes | 177.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/azharhacks/IAP.P.git
+   1c36f20..71d6c57  main -> main
+PS C:\Apache24\htdocs\IAP.P> 
